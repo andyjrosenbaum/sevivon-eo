@@ -46,7 +46,7 @@ vortojB = \lyricmode { \gxojaFestoVortoj \miraklegoVortoj \miraklegoVortoj \gxoj
 
 cxiomDaLaMuziko = {
 <<
-	{ \muzikoA \muzikoB }
+	{ \repeat volta 2 { \transpose f e {  \muzikoA \muzikoB } } }
 	\addlyrics { \vortojA \vortojB }
 >>
 }
@@ -54,8 +54,8 @@ cxiomDaLaMuziko = {
 % === presi la .pdf kaj la .midi dosierojn ===
 
 \score {
-	\new Staff { \key f \minor \time 2/4 \cxiomDaLaMuziko }
+	\new Staff { \key e \minor \time 2/4 \tempo 4 = 90 \cxiomDaLaMuziko }
 
 	\layout {}
-	\midi { \tempo 4 = 100 }
+	\midi { \tempo 4 = 90 }
 }
