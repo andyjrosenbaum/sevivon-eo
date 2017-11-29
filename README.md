@@ -1,5 +1,5 @@
-# sevivon\_eo
+# sevivon-eo
 
-Arrangement of S'vivon (traditional Chanukah song), translated into Esperanto, typeset in Lilypond.
+Aranĝo de "Sevivon" (tradica kanto por Ĥanukao, la Juda festo de lumoj). Mi tradukis ĝin (proksimume) de la hebrea lingvo al Esperanto, kaj presis la muzikon per LilyPond.
 
 Andy Rosenbaum <andyjrosenbaum@gmail.com>
